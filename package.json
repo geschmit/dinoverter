@@ -20,6 +20,7 @@
     "@types/node": "^18.11.11",
     "commander": "^9.4.1",
     "esbuild": "^0.16.1",
+    "jimp": "^0.16.2",
     "standard": "^17.0.0"
   }
 }
