@@ -4,7 +4,7 @@
   "description": "Convert your assets to usable Sprig formats!",
   "main": "",
   "scripts": {
-    "build": "npx esbuild --minify --bundle --platform=node --outfile=dist/index.js src/index.ts"
+    "build": "npx esbuild --minify --bundle --format=cjs --platform=node --outfile=dist/index.js src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -17,10 +17,11 @@
   },
   "homepage": "https://github.com/geschmit/dinoverter#readme",
   "dependencies": {
+    "@types/color-diff": "^1.2.1",
     "@types/node": "^18.11.11",
+    "color-diff": "^1.2.0",
     "commander": "^9.4.1",
     "esbuild": "^0.16.1",
-    "jimp": "^0.16.2",
-    "standard": "^17.0.0"
+    "jimp": "^0.16.2"
   }
 }
