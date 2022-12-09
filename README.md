@@ -2,7 +2,7 @@
 Convert your assets to usable Sprig formats!
 
 ## Install
-Clone the repo, and run `npm i`
+Clone the repo, then run `npm i`
 
 ## Usage
 ```
